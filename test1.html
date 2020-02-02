@@ -32,7 +32,7 @@
 </head>
 
 <body>
-    <button  onclick="gtag('event', 'click', { 'send_to': 'UA-157575135-1', 'event_category': 'festival11', 'event_action': 'click', 'event_label': 'country'});">click</button>
+    <button  onclick="gtag('event', 'click', { 'send_to': 'UA-157575135-1', 'event_category': 'festival11', 'event_action': 'click', 'event_label': 'country'});">clickqqq</button>
     <!-- <p>1111</p> -->
     <a href="test.html" target="blank" onclick="gtag('event', 'click', { 'send_to': 'UA-157575135-1', 'event_category': 'festival', 'event_action': 'click', 'event_label': 'country'});">2222</a>
     <video id="myVideo" class="myV" autoplay play style="width: 250px;
@@ -42,7 +42,7 @@
     <script type='text/javascript'>
         document.getElementById('myVideo').addEventListener('ended',myHandler,false);
         function myHandler(e) {
-            // gtag('event', 'click', { 'send_to': 'UA-157575135-1', 'event_category': 'festival11', 'event_action': 'click', 'event_label': 'country'});
+            gtag('event', 'click', { 'send_to': 'UA-157575135-1', 'event_category': 'video', 'event_action': 'click', 'event_label': 'country'});
             ga('send', 'event', 'Videos', 'play', 'Fall Campaign');
             
         }
