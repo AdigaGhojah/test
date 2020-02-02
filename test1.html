@@ -35,6 +35,16 @@
     <button  onclick="gtag('event', 'click', { 'send_to': 'UA-157575135-1', 'event_category': 'festival11', 'event_action': 'click', 'event_label': 'country'});">click</button>
     <!-- <p>1111</p> -->
     <a href="test.html" target="blank" onclick="gtag('event', 'click', { 'send_to': 'UA-157575135-1', 'event_category': 'festival', 'event_action': 'click', 'event_label': 'country'});">2222</a>
+    <video id="ads" class="myV" autoplay style="width: 250px;
+    height: 500px;">
+                 <source src="http://softpmp.com/WhatsApp-ads.mp4" type="video/mp4">
+            </video>
+    <script type='text/javascript'>
+        document.getElementById('myVideo').addEventListener('ended',myHandler,false);
+        function myHandler(e) {
+            gtag('event', 'click', { 'send_to': 'UA-157575135-1', 'event_category': 'video-watched', 'event_action': 'click', 'event_label': 'country'});"
+        }
+    </script>
 </body>
 
 </html>
