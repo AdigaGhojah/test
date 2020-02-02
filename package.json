@@ -1,0 +1,23 @@
+{
+  "name": "mawdoo3-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdigaGhojah/test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdigaGhojah/test/issues"
+  },
+  "homepage": "https://github.com/AdigaGhojah/test#readme",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
