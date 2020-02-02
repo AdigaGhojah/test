@@ -627,6 +627,7 @@ height: auto;min-height: auto; background-color: black;">
         <div class="options">
           <a href="https://ujeeb.com/landing-page/o9yEej15NZX7db83W02g/" class="add-question-btn mt-3" onclick="gtag('event', 'click', { 'send_to': 'UA-157575135-1', 'event_category': 'festival11', 'event_action': 'click', 'event_label': 'country'});"
             target="blank">اطرح سؤالك</a>
+            <button id="teeest">333</button>
           <ul style="display: none;">
 
             <!-- Start First Option -->
@@ -904,6 +905,17 @@ height: auto;min-height: auto; background-color: black;">
 
   </script>
   <script type='text/javascript'>
+
+
+document.getElementById('teeest').addEventListener('click',()=>{
+  var metricValue = '123';
+  ga('set', 'metric1', metricValue);
+
+});
+
+
+
+
     document.getElementById('firstVi').addEventListener('ended', myHandler, false);
     function myHandler(e) {
       gtag('event', 'click', { 'send_to': 'UA-157575135-1', 'event_category': 'video', 'event_action': 'click', 'event_label': 'country' });
