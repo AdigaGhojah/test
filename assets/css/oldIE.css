@@ -1,0 +1,234 @@
+body, input, .form-field, select {
+	font-family: Tahoma, 'DroidArabicKufi-Regular', sans-serif, Arial !important; /* Default font properties */
+}
+.wrapper {
+/*width: !important;*/  /* Add width in case fixed layout for ie8 and less. */
+}
+/* --------------------Grid-------------------- */
+/* Column Classes */
+.large-1 {
+	width:8.33333% !important;
+}
+.large-2 {
+	width:16.66667% !important;
+}
+.large-3 {
+	width:25% !important;
+}
+.large-4 {
+	width:33.33333% !important;
+}
+.large-5 {
+	width:41.66667% !important;
+}
+.large-6 {
+	width:50% !important;
+}
+.large-7 {
+	width:58.33333% !important;
+}
+.large-8 {
+	width:66.66667% !important;
+}
+.large-9 {
+	width:75% !important;
+}
+.large-10 {
+	width:83.33333% !important;
+}
+.large-11 {
+	width:91.66667% !important;
+}
+.large-12 {
+	width:100% !important;
+}
+/* /Column Classes */
+
+/* Grid Margin */
+.grid-margin-lg {
+	margin:0 auto 15px !important;
+	margin:0 auto 0.9375rem !important; /* Add margin-bottom to the columns on large screen only */
+}
+.grid-margin-lg-med {
+	margin:0 auto 15px;
+	margin:0 auto 0.9375rem !important; /* Add margin-bottom to the columns on large and medium screens only */
+}
+.grid-margin-lg-sm {
+	margin:0 auto 15px;
+	margin:0 auto 0.9375rem !important; /* Add margin-bottom to the columns on large and small screens only */
+}
+.grid-margin-lg-mini {
+	margin:0 auto 15px;
+	margin:0 auto 0.9375rem !important; /* Add margin-bottom to the columns on large and mini screens only */
+}
+/* /Grid Margin */
+
+/* Grid-Space Feature */
+.lg-push-0 {
+	margin-left:0% !important;
+}
+.lg-push-1 {
+	margin-left: 8.33333% !important;
+}
+.lg-push-2 {
+	margin-left: 16.66667% !important;
+}
+.lg-push-3 {
+	margin-left: 25% !important;
+}
+.lg-push-4 {
+	margin-left: 33.33333% !important;
+}
+.lg-push-5 {
+	margin-left: 41.66667% !important;
+}
+.lg-push-6 {
+	margin-left: 50% !important;
+}
+.lg-push-7 {
+	margin-left: 58.33333% !important;
+}
+.lg-push-8 {
+	margin-left: 66.66667% !important;
+}
+.lg-push-9 {
+	margin-left: 75% !important;
+}
+.lg-push-10 {
+	margin-left: 83.33333% !important;
+}
+.lg-push-11 {
+	margin-left: 91.66667% !important;
+}
+.lg-pull-0 {
+	margin-right:0% !important;
+}
+.lg-pull-1 {
+	margin-right: 8.33333% !important;
+}
+.lg-pull-2 {
+	margin-right: 16.66667% !important;
+}
+.lg-pull-3 {
+	margin-right: 25% !important;
+}
+.lg-pull-4 {
+	margin-right: 33.33333% !important;
+}
+.lg-pull-5 {
+	margin-right: 41.66667% !important;
+}
+.lg-pull-6 {
+	margin-right: 50% !important;
+}
+.lg-pull-7 {
+	margin-right: 58.33333% !important;
+}
+.lg-pull-8 {
+	margin-right: 66.66667% !important;
+}
+.lg-pull-9 {
+	margin-right: 75% !important;
+}
+.lg-pull-10 {
+	margin-right: 83.33333% !important;
+}
+.lg-pull-11 {
+	margin-right: 91.66667% !important;
+}
+/* /Grid-Space Feature */
+/* --------------------/Grid-------------------- */
+
+/* --------------------Visibility Classes [for Desktop]-------------------- */
+.hidden-desktop {
+	display:none !important;
+}
+.visible-desktop {
+	display:block !important;
+}
+/* --------------------/Visibility Classes [for Desktop]-------------------- */
+
+.header {right:0;}
+.header .large-9 {*width:74% !important;}
+.header.home .menu-icon {display: none;}
+.search {*width:560px !important;}
+.search .form-field {*float:left !important;}
+
+/* Large Screens - [Desktop] - @media screen and (min-width:970px) */
+.top-nav {
+	z-index: 999;
+}
+.header {
+	right: 0;
+}
+
+/* Home Page */
+.side-block a {
+	width: 140px;
+	height: 105px;
+}
+.side-block a.img {
+	background: url(../imgs/articles-imgs-6.jpg) no-repeat;
+}
+.side-block a.article1 {
+	background-position: 0 0;
+}
+.side-block a.article2 {
+	background-position: 0 -840px;
+}
+.side-block a.article3 {
+	background-position: 0 -1995px;
+}
+.side-block a.article4 {
+	background-position: 0 -210px;
+}
+.side-block a.article5 {
+	background-position: 0 -105px;
+}
+.side-block a.article6 {
+	background-position: 0 -735px;
+}
+.side-block a.article7 {
+	background-position: 0 -1260px;
+}
+.side-block a.article8 {
+	background-position: 0 -630px;
+}
+.side-block a.article9 {
+	background-position: 0 -1680px;
+}
+.side-block a.article10 {
+	background-position: 0 -1365px;
+}
+.side-block a.article11 {
+	background-position: 0 -1470px;
+}
+.side-block a.article12 {
+	background-position: 0 -1155px;
+}
+.side-block a.article13 {
+	background-position: 0 -1890px;
+}
+.side-block a.article14 {
+	background-position: 0 -945px;
+}
+.side-block a.article15 {
+	background-position: 0 -420px;
+}
+.side-block a.article16 {
+	background-position: 0 -1575px;
+}
+.side-block a.article17 {
+	background-position: 0 -524px;
+}
+.side-block a.article18 {
+	background-position: 0 -1785px;
+}
+.side-block a.article19 {
+	background-position: 0 -1050px;
+}
+.side-block a.article20 {
+	background-position: 0 -315px;
+}
+/* /Home Page */
+/* Large Screens - [Desktop] - @media screen and (min-width:970px) */

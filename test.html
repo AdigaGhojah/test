@@ -1,0 +1,1353 @@
+<!doctype html>
+<html lang="ar">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Mawdoo3</title>
+    <link rel="stylesheet" href="assets/css/simple-1.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/pages/article-and-category.css">
+    <link rel="shortcut icon" href="assets/imgs/favicon.ico">
+    <!-- Start References Style -->
+    <style>
+        .references {
+            display: none;
+            background: #f8f8f8;
+            margin: 0px !important;
+            border-width: 0px 1px 1px;
+            border: 1px solid #eaeaea;
+            border-top-style: initial;
+            box-sizing: border-box;
+            padding-left: 15px;
+            width: 100%;
+        }
+
+        .references li:first-child {
+            padding-top: 15px;
+        }
+
+        .references li:last-child {
+            padding-bottom: 15px;
+        }
+
+        #show-refs {
+            cursor: pointer;
+            font-weight: normal;
+            margin-bottom: 0;
+            padding: 9px 8px;
+            border: 1px solid #eaeaea;
+            border-bottom: 2px solid #27b5bb;
+        }
+
+        .sign::after {
+            margin: 0 10px;
+            font-size: 20px;
+            color: #2080c7;
+            content: "[+]";
+        }
+
+        .on::after {
+            content: "[-]" !important;
+
+        }
+        footer a{color:white !important ;}
+        .test{width:auto;}
+    </style>
+    <!-- End References Style -->
+    <!--[if lt IE 9]>
+	<link rel="stylesheet" href="assets/css/simple-on-oldIE.css">
+    <script src="assets/js/html5-on-oldIE.js"></script>
+<![endif]-->
+
+</head>
+
+<body data-mediavoice-version="1.150.0" style="">
+    <div id="OOP" style="height: 0px;" data-google-query-id="CL_Jve253uMCFdarewodP3wB1w">
+        <div id="google_ads_iframe_/7229/Mawdou3/Health_3__container__"
+            style="border: 0pt none; margin: auto; text-align: center; width: 1px; height: 1px;"></div>
+    </div>
+    <!-- Google Analytics -->
+    <script>(function (i, s, o, g, r, a, m) { i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o), m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m) })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga'); ga('create', 'UA-11715036-5', 'mawdoo3.com'); ga('set', 'contentGroup1', 'صحة - طب بديل'); ga('send', 'pageview');</script>
+    <!-- End Google Analytics -->
+    <script type="text/javascript">
+        function CheckIfUserLoS(c) {
+            var img = $('img[src*="//bcp.crwdcntrl"]');
+            if (img.attr('src').indexOf("act") > -1) {
+                img1 = img.attr('src').substring(0, img.attr('src').indexOf("/act"));
+                if (c == "wpCreateaccount") {
+                    $('img[src*="//bcp.crwdcntrl"]').attr('src', img1.attr('src') + '/act=Singup');
+                } else {
+                    $('img[src*="//bcp.crwdcntrl"]').attr('src', img1.attr('src') + '/act=Login');
+                }
+            } else {
+                if (c == "wpCreateaccount") {
+                    $('img[src*="//bcp.crwdcntrl"]').attr('src', img.attr('src') + '/act=Singup');
+                } else {
+                    $('img[src*="//bcp.crwdcntrl"]').attr('src', img.attr('src') + '/act=Login');
+                }
+            }
+        }
+        window.mobilecheck = function () {
+            var check = false;
+            (
+                function (a) {
+                    if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4)))
+                        check = true;
+                }
+            )(
+                navigator.userAgent || navigator.vendor || window.opera
+            );
+            return check;
+        }
+        window.tabletcheck = function () {
+            var check = false;
+            (
+                function (a) {
+                    if (navigator.userAgent.toLowerCase().match(/tablet|ipad/i)) check = true
+                }
+            )(
+                navigator.userAgent || navigator.vendor || window.opera
+            );
+            var userAgent = navigator.userAgent.toLowerCase();
+            if (!check) {
+                if ((userAgent.search("android") > -1) && !(userAgent.search("mobile") > -1)) {
+                    check = true;
+                }
+            }
+            return check;
+        }
+        window.devicecheck = function () {
+            if (window.tabletcheck()) {
+                return "tablet";
+            } else if (window.mobilecheck()) {
+                return "mobile";
+            } else {
+                return "desktop";
+            }
+        }
+        var checkScenario = function (pos) {
+            /**
+             * Mobile scenario: for mobiles and tablets that width is less than 768
+             * Desktop scenario: for desktops only
+             * Note: if mobile or tablet width larger than or equal 768 then Leaderboard will take desktop scenario and MPU will take mobile scenario
+             */
+            var deviceCheck = window.devicecheck();
+            var innerWidth = window.innerWidth;
+            var scenario = 'desktop';
+            if (deviceCheck == 'mobile' || (deviceCheck == 'tablet' && innerWidth < 768)) {
+                scenario = 'mobile';
+            } else if ((deviceCheck == 'mobile' || deviceCheck == 'tablet') && pos == 'MPU') {
+                scenario = 'mobile';
+            }
+            return scenario;
+        }
+        var checkMyRelatedScenario = function () {
+            var deviceCheck = window.devicecheck();
+            var innerWidth = window.innerWidth;
+            var scenario = 'desktop';
+            if (deviceCheck == 'mobile' || (deviceCheck == 'tablet' && innerWidth < 768)) {
+                scenario = 'mobile';
+            }
+            return scenario;
+        }
+    </script>
+
+    <!--Wrapper-->
+    <div class="off-menu-wrapper">
+
+        <div class="inner-wrapper"> <a id="close-off-menu" class="close-off-menu" name="startFromTop"></a>
+
+            <!--Side Navigation - On Mobile and Tablet-->
+            <nav id="side-nav" class="side-nav hidden-desktop">
+                <ul>
+                    <li><a href="/"><span class="icon categoriesNav"></span>التصنيفات</a></li>
+                    <li><a href="/خاص:أجدد_الصفحات"><span class="icon browseNav"></span>تصفح المواضيع</a></li>
+                </ul>
+                <!--Social Media-->
+                <div class="social-media hidden-desktop"> <a rel="nofollow" target="_blank" class="facebook"
+                        href="https://www.facebook.com/mawdoo3"></a> <a rel="nofollow" target="_blank" class="twitter"
+                        href="https://twitter.com/mawdoo3"></a> <a rel="publisher" target="_blank" class="google"
+                        href="https://plus.google.com/+Mawdoo3"></a> </div>
+                <!--/Social Media-->
+            </nav>
+            <!--/Side Navigation - On Mobile and Tablet-->
+
+
+            <!--Header-->
+            <header id="header" class="header inside" style="">
+                <div class="row block-content">
+                    <!--Logo-->
+                    <div class="columns large-4 medium-4 small-10 logo-box"> <a href="/"
+                            title="موضوع، أكبر موقع عربي بالعالم" class="logo"></a><span class="slogan">أكبر موقع عربي
+                            بالعالم</span> </div>
+
+                    <!--/Logo-->
+
+                    <!--Search-->
+                    <div class="columns large-7 medium-7 small-12 search inside" itemscope=""
+                        itemtype="https://schema.org/WebSite" style="
+    /* border: 1px solid yellow; */
+">
+                        <meta itemprop="url" content="https://mawdoo3.com/">
+                        <form itemtype="https://schema.org/SearchAction" itemscope="" itemprop="potentialAction"
+                            id="searchform" method="get" role="search" action="/خاص:بحث_موضوع" class="clearfix"
+                            style="border-radius: 10px;/* border: 1px solid red; */">
+                            <meta itemprop="target" content="https://mawdoo3.com/خاص:بحث_موضوع?q={q}">
+                            <input onclick="return searchcheck();" type="submit" value="" class="btn" style="
+    border-radius: 0 10px 10px 0;
+">
+                            <input itemprop="query-input" name="q" value="" type="search" id="searchbar"
+                                placeholder="ابحث هنا..." class="field" style="
+    border-radius: 10px 0 0 10px;
+    /* padding-right: 60px; */
+">
+                        </form>
+                        <script>
+                            function searchcheck() {
+                                var search = document.getElementById("searchbar");
+                                if (search.value == "") {
+                                    search.focus();
+                                    return false;
+                                }
+                                else
+                                    return true;
+                            }
+                        </script>
+                    </div>
+                    <!--/Search-->
+                    <!--Off Canvas Menu-->
+                    <div id="menu-icon" class="columns large-1 medium-1 small-2 menu-icon">
+                        <a id="off-menu-icon" class="off-menu-icon">
+                            <span class="top line"></span>
+                            <span class="middle line"></span>
+                            <span class="bottom line"></span>
+                        </a>
+                        <span id="off-menu-closeIcon" class="close"></span>
+                    </div>
+                    <!--/Off Canvas Menu-->
+
+                    <!--Top Navigation-->
+                    <nav id="top-nav" class="top-nav inside hidden-mobile hidden-tablet">
+                        <ul>
+                            <li><a accesskey="1" href="/"><span class="icon categoriesNav"></span>التصنيفات</a></li>
+                            <li><a accesskey="2" href="/خاص:أجدد_الصفحات"><span class="icon browseNav"></span>تصفح
+                                    المواضيع</a></li>
+
+
+
+                            <li class="last hidden-mobile hidden-tablet"><span class="show-search"></span></li>
+                        </ul>
+                    </nav>
+
+
+
+                </div>
+            </header>
+            <!--/Header-->
+            <section class="container" style="
+">
+
+
+
+                <div id="mw-js-message" style="display:none;"></div>
+                <script type="text/javascript">
+                    var signal = {
+                        "User": {
+                            "UserId": null,
+                            "isLoggedIn": false,
+                            "EmailHash": null,
+                            "Gender": null,
+                            "Age": null
+                        },
+                        "Content": {
+                            "ContentCategoryLevel1": "صحة",
+                            "Subsection": ["طب بديل"],
+                            "Keywords": ["طب بديل", "العلاج", "باستنشاق", "البخار"],
+                            "ArticleId": "1613",
+                            "ArticleTitle": "العلاج باستنشاق البخار",
+                            "ArticleAuthorName": "طارق محمد",
+                            "ArticlePublishDate": "٠٨:٤٣ ، ١٨ يونيو ٢٠١٢",
+                            "ContentType": "Page",
+                            "IsVideo": false,
+                            "VideoTitle": null,
+                            "VideoLength": null,
+                            "SearchTerm": null,
+                            "Techtype": "Web"
+                        },
+                        "Page": {
+                            "ChannelLevel1": "Health"
+                        },
+                        "Device": {
+                            "Device": window.devicecheck()
+                        }
+                    }
+                </script>
+
+
+
+                <script type="text/javascript">
+                    if (checkScenario("Leaderboard") == "desktop") {
+                        document.write('<div id="Leaderboard" class="block-content ads-top"></div>');
+                    }
+                </script>
+                <div id="Leaderboard" class="block-content ads-top" data-google-query-id="CLzJve253uMCFdarewodP3wB1w"
+                    style="display: none;">
+                    <div id="google_ads_iframe_/7229/Mawdou3/Health_0__container__"
+                        style="border: 0pt none; margin: auto; text-align: center; width: 728px; height: 90px;"></div>
+                </div>
+
+                <div class="row block-content">
+                    <div class="column test" style="/* border-radius: 10px; */">
+                        <ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList" style="
+    border-radius: 10px;
+">
+                            <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"><a
+                                    itemprop="item" href="/"
+                                    onclick="ga('send', 'event', 'AP', 'click', 'BC', 1);"><span
+                                        itemprop="name">الرئيسية</span></a>
+
+                                <meta itemprop="position" content="1">
+                            </li>
+
+
+                            <li>/</li>
+                            <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"> <a
+                                    itemprop="item" href="/تصنيف:طب_بديل"
+                                    onclick="ga('send', 'event', 'AP', 'click', 'BC', 1);"> <span itemprop="name">طب
+                                        بديل</span></a>
+                                <meta itemprop="position" content="2">
+                            </li>
+
+                            <li> / </li>
+                            <li class="current">العلاج باستنشاق البخار</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row block-content inside-container">
+                    <article class="columns large-8 medium-12 small-12">
+                        <div id="article-box" class="article-box">
+                            <div class="article clearfix" role="article" itemscope=""
+                                itemtype="https://schema.org/Article">
+                                <h1 class="title" itemprop="headline">العلاج باستنشاق البخار</h1>
+                                <div class="by">بواسطة: <span class="author_name" itemprop="author">طارق محمد</span> -
+                                    آخر تحديث: <span itemprop="dateModified">٠٧:٢٤ ، ٣٠ مايو ٢٠١٩</span></div>
+
+                                <div class="article-img" itemprop="image">
+                                    <img id="articleimagediv" title="العلاج باستنشاق البخار"
+                                        src="https://modo3.com/thumbs/fit630x300/1613/1415720780/العلاج_باستنشاق_البخار.jpg"
+                                        itemprop="image" alt="العلاج باستنشاق البخار">
+                                </div>
+
+
+                                <div class="article-body row" itemprop="articleBody">
+
+                                    <ul id="related-list1" class="related-articles-list1 columns large-3 medium-3"
+                                        style="position: static; top: 80px; border: 1px solid rgb(221, 221, 221); background: rgb(248, 248, 248);">
+                                        <li>
+                                            <span class="icon"></span>
+                                            ذات صلة </li>
+                                        <li class="hidden-mobile"><a href="/فوائد_استنشاق_بخار_الماء"
+                                                onclick="ga('send', 'event', 'AP', 'click', 'SR', 3);"> فوائد استنشاق
+                                                بخار الماء</a></li>
+                                        <li class="hidden-mobile"><a href="/كيف_التخلص_من_البلغم"
+                                                onclick="ga('send', 'event', 'AP', 'click', 'SR', 3);"> كيف التخلص من
+                                                البلغم</a></li>
+                                        <li><a href="/طريقة_استخدام_جهاز_البخار_للأطفال"
+                                                onclick="ga('send', 'event', 'AP', 'click', 'SR', 3);"> طريقة استخدام
+                                                جهاز البخار للأطفال</a></li>
+                                        <li style="
+    border: none;
+"><a href="/فوائد_استنشاق_هواء_البحر" onclick="ga('send', 'event', 'AP', 'click', 'SR', 3);"> فوائد استنشاق هواء
+                                                البحر</a></li>
+                                    </ul>
+
+                                    <div class="columns large-9 medium-9 small-12 left">
+                                        <div class="article-text">
+
+                                            <div id="mw-content-text" lang="ar" dir="rtl" class="mw-content-rtl">
+                                                <div id="toc" class="toc">
+                                                    <div id="toctitle">
+                                                        <h2>محتويات</h2>
+                                                    </div>
+                                                    <ul>
+                                                        <li class="toclevel-1 tocsection-1"><a
+                                                                href="#.D8.A7.D9.84.D8.B9.D9.84.D8.A7.D8.AC_.D8.A8.D8.A7.D8.B3.D8.AA.D9.86.D8.B4.D8.A7.D9.82_.D8.A7.D9.84.D8.A8.D8.AE.D8.A7.D8.B1"><span
+                                                                    class="tocnumber">١</span> <span
+                                                                    class="toctext"><b>العلاج باستنشاق
+                                                                        البخار</b></span></a></li>
+                                                        <li class="toclevel-1 tocsection-2"><a
+                                                                href="#.D9.81.D9.88.D8.A7.D8.A6.D8.AF_.D8.A7.D8.B3.D8.AA.D9.86.D8.B4.D8.A7.D9.82_.D8.A7.D9.84.D8.A8.D8.AE.D8.A7.D8.B1"><span
+                                                                    class="tocnumber">٢</span> <span
+                                                                    class="toctext"><b>فوائد استنشاق
+                                                                        البخار</b></span></a></li>
+                                                        <li class="toclevel-1 tocsection-3"><a
+                                                                href="#.D8.B7.D9.8F.D8.B1.D9.82_.D8.A7.D8.B3.D8.AA.D9.86.D8.B4.D8.A7.D9.82_.D8.A7.D9.84.D8.A8.D8.AE.D8.A7.D8.B1"><span
+                                                                    class="tocnumber">٣</span> <span
+                                                                    class="toctext"><b>طُرق استنشاق
+                                                                        البخار</b></span></a></li>
+                                                        <li class="toclevel-1 tocsection-4"><a
+                                                                href="#.D8.A7.D9.84.D8.A5.D8.B6.D8.A7.D9.81.D8.A7.D8.AA_.D8.A7.D9.84.D9.85.D9.8F.D9.85.D9.83.D9.86.D8.A9_.D9.84.D9.84.D8.A8.D8.AE.D8.A7.D8.B1"><span
+                                                                    class="tocnumber">٤</span> <span
+                                                                    class="toctext"><b>الإضافات المُمكنة
+                                                                        للبخار</b></span></a></li>
+                                                        <li class="toclevel-1 tocsection-5"><a
+                                                                href="#.D9.85.D8.AD.D8.A7.D8.B0.D9.8A.D8.B1_.D8.A7.D8.B3.D8.AA.D9.86.D8.B4.D8.A7.D9.82_.D8.A7.D9.84.D8.A8.D8.AE.D8.A7.D8.B1"><span
+                                                                    class="tocnumber">٥</span> <span
+                                                                    class="toctext"><b>محاذير استنشاق
+                                                                        البخار</b></span></a></li>
+                                                        <li class="toclevel-1 tocsection-6"><a
+                                                                href="#.D9.81.D9.8A.D8.AF.D9.8A.D9.88_.D8.A7.D9.84.D8.B9.D9.84.D8.A7.D8.AC_.D8.A8.D8.A7.D8.B3.D8.AA.D9.86.D8.B4.D8.A7.D9.82_.D8.A7.D9.84.D8.A8.D8.AE.D8.A7.D8.B1"><span
+                                                                    class="tocnumber">٦</span> <span
+                                                                    class="toctext"><i>فيديو العلاج باستنشاق
+                                                                        البخار</i></span></a></li>
+                                                        <li class="toclevel-1 tocsection-7"><a
+                                                                href="#.D8.A7.D9.84.D9.85.D8.B1.D8.A7.D8.AC.D8.B9"><span
+                                                                    class="tocnumber">٧</span> <span
+                                                                    class="toctext"><b>المراجع</b></span></a></li>
+                                                    </ul>
+                                                </div>
+                                                <script type="text/javascript">
+                                                    if (checkScenario("Leaderboard") == "mobile") {
+                                                        document.write('<div id="Leaderboard" class="ads-top"></div>');
+                                                    }</script>
+
+                                                <h2><span class="mw-headline"
+                                                        id=".D8.A7.D9.84.D8.B9.D9.84.D8.A7.D8.AC_.D8.A8.D8.A7.D8.B3.D8.AA.D9.86.D8.B4.D8.A7.D9.82_.D8.A7.D9.84.D8.A8.D8.AE.D8.A7.D8.B1"><b>العلاج
+                                                            باستنشاق البخار</b></span></h2>
+                                                <p>يُستخدم العلاج باستنشاق البخار (بالإنجليزيّة: Steam inhalation)
+                                                    لمعالجة احتقان الأنف (بالإنجليزيّة: Nasal congestion) أو <a
+                                                        href="/%D8%B7%D8%B1%D9%82_%D9%84%D9%81%D8%AA%D8%AD_%D8%A7%D9%86%D8%B3%D8%AF%D8%A7%D8%AF_%D8%A7%D9%84%D8%A3%D9%86%D9%81"
+                                                        title="طرق لفتح انسداد الأنف">انسداد الأنف</a> (بالإنجليزيّة:
+                                                    Blocked nose) الذي يُعدّ من أبرز الأعراض المُزعجة للكبار، والمؤذية
+                                                    للصّغار بسبب تأثيره في عمليّة التنفس والتّغذية، وعادةً ما يُرافق
+                                                    الكثير من أمراض الجهاز التنفسيّ مثل <a
+                                                        href="/%D8%A3%D8%B3%D8%A8%D8%A7%D8%A8_%D8%A7%D9%84%D8%AA%D9%87%D8%A7%D8%A8_%D8%A7%D9%84%D8%AC%D9%8A%D9%88%D8%A8_%D8%A7%D9%84%D8%A3%D9%86%D9%81%D9%8A%D8%A9"
+                                                        title="أسباب التهاب الجيوب الأنفية">التهاب الجيوب الأنفيّة</a>
+                                                    (بالإنجليزيّة: Sinusitis)، والإنفلونزا (بالإنجليزيّة: Influenza)، <a
+                                                        href="/%D9%83%D9%8A%D9%81_%D8%A3%D8%B9%D8%A7%D9%84%D8%AC_%D8%A7%D9%84%D8%B2%D9%83%D8%A7%D9%85_%D9%85%D9%86%D8%B2%D9%84%D9%8A%D8%A7%D9%8B"
+                                                        title="كيف أعالج الزكام منزلياً">والزّكام</a> (بالإنجليزيّة:
+                                                    Common cold)، وحمّى الكلأ (بالإنجليزيّة: Hay fever)، <a
+                                                        href="/%D8%A3%D8%B3%D8%A8%D8%A7%D8%A8_%D8%AD%D8%B3%D8%A7%D8%B3%D9%8A%D8%A9_%D8%A7%D9%84%D8%A3%D9%86%D9%81"
+                                                        title="أسباب حساسية الأنف">والتهاب الأنف التحسّسي</a>
+                                                    (بالإنجليزيّة: Allergic rhinitis).<sup id="cite_ref-DxJv5ouoGv_1-0"
+                                                        class="reference"><a
+                                                            href="#cite_note-DxJv5ouoGv-1">[١]</a></sup></p>
+                                                <p style=""><br></p>
+                                                <h2><span class="mw-headline"
+                                                        id=".D9.81.D9.88.D8.A7.D8.A6.D8.AF_.D8.A7.D8.B3.D8.AA.D9.86.D8.B4.D8.A7.D9.82_.D8.A7.D9.84.D8.A8.D8.AE.D8.A7.D8.B1"><b>فوائد
+                                                            استنشاق البخار</b></span></h2>
+                                                <p>من فوائد استنشاق <a
+                                                        href="/%D9%81%D9%88%D8%A7%D8%A6%D8%AF_%D8%A7%D8%B3%D8%AA%D9%86%D8%B4%D8%A7%D9%82_%D8%A8%D8%AE%D8%A7%D8%B1_%D8%A7%D9%84%D9%85%D8%A7%D8%A1"
+                                                        title="فوائد استنشاق بخار الماء">البُخار</a> ما يلي:
+                                                </p>
+                                                <script type="text/javascript">
+                                                    if (checkScenario("MPU") == "mobile") {
+                                                        document.write('<div id="MPU" class="ads-side"></div>');
+                                                    }</script>
+                                                <ul>
+                                                    <li>التخلّص من احتقان الجيوب الأنفيّة وذلك بدمج الماء الساخن مع بعض
+                                                        الزّيوت العطريّة (بالإنجليزيّة: Essential Oils).<sup
+                                                            id="cite_ref-HpJCMM1Dp0_2-0" class="reference"><a
+                                                                href="#cite_note-HpJCMM1Dp0-2">[٢]</a></sup></li>
+                                                    <li>علاج أعراض البرد أو الزّكام، وأهمّها احتقان الأنف.<sup
+                                                            id="cite_ref-3H1I0H8p9I_3-0" class="reference"><a
+                                                                href="#cite_note-3H1I0H8p9I-3">[٣]</a></sup></li>
+                                                    <li>علاج أعراض <a
+                                                            href="/%D9%83%D9%8A%D9%81_%D8%A3%D8%B9%D8%A7%D9%84%D8%AC_%D8%A7%D9%84%D8%AA%D9%87%D8%A7%D8%A8_%D8%A7%D9%84%D8%AD%D9%84%D9%82"
+                                                            title="كيف أعالج التهاب الحلق">التهاب الحلق</a>
+                                                        (بالإنجليزيّة: Sore Throats)، وأهمّها الألم <a
+                                                            href="/%D8%B9%D9%84%D8%A7%D8%AC_%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D9%81%D8%A7%D8%AE"
+                                                            title="علاج الانتفاخ">والانتفاخ</a>.<sup
+                                                            id="cite_ref-97zs5pEHss_4-0" class="reference"><a
+                                                                href="#cite_note-97zs5pEHss-4">[٤]</a></sup></li>
+                                                    <li>تحليل المادّة المخاطيّة (بالإنجليزيّة: Mucus) المُتراكمة في
+                                                        الجهاز التنفسيّ والمُسبّبة <a
+                                                            href="/%D8%A7%D9%84%D8%B3%D8%B9%D8%A7%D9%84_%D9%88%D8%A3%D8%B3%D8%A8%D8%A7%D8%A8%D9%87"
+                                                            title="السعال وأسبابه">للسّعال</a> الرّطب أو العميق.<sup
+                                                            id="cite_ref-LEGLnrKD8r_5-0" class="reference"><a
+                                                                href="#cite_note-LEGLnrKD8r-5">[٥]</a></sup></li>
+                                                    <li>التّخفيف من <a
+                                                            href="/%D8%A7%D8%B3%D8%A8%D8%A7%D8%A8_%D8%B6%D9%8A%D9%82_%D8%A7%D9%84%D8%AA%D9%86%D9%81%D8%B3"
+                                                            title="اسباب ضيق التنفس" class="mw-redirect">ضيق التنفس</a>
+                                                        أو صعوبة التنفس (بالإنجليزيّة: Shortness of breath)، من خلال
+                                                        إبقاء الممرّ الهوائي الأنفي مفتوحاً، وتحليل طبقة المُخاط
+                                                        الموجودة في الرّئتين.<sup id="cite_ref-MKGwIMpDJs_6-0"
+                                                            class="reference"><a
+                                                                href="#cite_note-MKGwIMpDJs-6">[٦]</a></sup></li>
+                                                </ul>
+                                                <p><br></p>
+                                                <h2><span class="mw-headline"
+                                                        id=".D8.B7.D9.8F.D8.B1.D9.82_.D8.A7.D8.B3.D8.AA.D9.86.D8.B4.D8.A7.D9.82_.D8.A7.D9.84.D8.A8.D8.AE.D8.A7.D8.B1"><b>طُرق
+                                                            استنشاق البخار</b></span></h2>
+                                                <p>من الطرق المتبعة للعلاج باستنشاق البخار ما يلي:
+                                                </p>
+                                                <ul>
+                                                    <li><b>الوعاء والمنشفة:</b> تتمّ من خلال تسخين المياه للحصول على
+                                                        مياه مغليّة (بالإنجليزيّة: Boiling water)، ومن ثمّ وضعها في وعاء
+                                                        كبير ويُفضّل أن يكون عازلاً للحرارة (بالإنجليزيّة: Heatproof
+                                                        bowl)، ثم يقوم الشخص بالجلوس بالقرب من الوعاء أو الحوض المستخدم،
+                                                        ثمّ يقترب بوجهه من الوعاء ويكون رأسه مغطىً بمنشفة ليغدو الأمر
+                                                        كالخيمة، وعلى الشخص أن يقوم بالتنفس بواسطة أنفه لمدة دقيقتين
+                                                        متتاليتين مع إغلاق العينين تجنباً لحصول أيّ أذى.<sup
+                                                            id="cite_ref-DxJv5ouoGv_1-1" class="reference"><a
+                                                                href="#cite_note-DxJv5ouoGv-1">[١]</a></sup><sup
+                                                            id="cite_ref-HpJCMM1Dp0_2-1" class="reference"><a
+                                                                href="#cite_note-HpJCMM1Dp0-2">[٢]</a></sup></li>
+                                                    <li><b>كأس البُخار:</b> يُمكن الإستعانة بالكأس البلاستيكيّ المُخصّص
+                                                        لاستنشاق البُخار؛ حيث يتكوّن من وعاء يُوضع فيه الماء السّاخن
+                                                        وقناع (بالإنجليزيّة: Mask) يُلائم ويُناسب الوجه للتنفّس من
+                                                        خلاله، ويُسمّى كأس البُخار (بالإنجليزيّة: Steam cup).<sup
+                                                            id="cite_ref-DxJv5ouoGv_1-2" class="reference"><a
+                                                                href="#cite_note-DxJv5ouoGv-1">[١]</a></sup></li>
+                                                    <li><b>حمّام البخار:</b> يُمكن الاعتماد على استنشاق الهواء الرّطب
+                                                        (بالإنجليزيّة: Moist air) من خلال عمل حمّامٍ دافئٍ
+                                                        (بالإنجليزيّة: Warm shower) وتنفّس البُخار النّاتج عن المياه
+                                                        السّاخنة، ويساعد هذا الأمر على تخفيف أعراض التهاب الحلق، كما
+                                                        تُعتبر هذه الطريقة هي الطريقة المُثلى لاستخدام العلاج باستنشاق
+                                                        البخار من قبل الأطفال؛ إذ تُعدّ أسلم طريقة لتفادي خطورة المياه
+                                                        المغليّة، وتتمّ من خلال تشغيل صنابير المياه السّاخنة في الحمّام
+                                                        وإغلاق الباب، ثمّ الجلوس مع الطّفل للّعب أو لقراءة القصص لمدّة
+                                                        تتراوح بين خمس دقائق إلى عشر دقائق.<sup
+                                                            id="cite_ref-DxJv5ouoGv_1-3" class="reference"><a
+                                                                href="#cite_note-DxJv5ouoGv-1">[١]</a></sup><sup
+                                                            id="cite_ref-97zs5pEHss_4-1" class="reference"><a
+                                                                href="#cite_note-97zs5pEHss-4">[٤]</a></sup></li>
+                                                    <li><b>جهاز الاستنشاق:</b> يُساعد جهاز الاستنشاق والمعروف بالمرذاذ
+                                                        (بالإنجليزيّة: Vaporizers) على ترطيب الهواء باستخدام الرذاذ
+                                                        الساخن (بالإنجليزيّة: Hot mist)؛ حيث يُساعد ذلك على التنفس بشكل
+                                                        سليم، والتّخلص من جفاف الحلق والأنف والشفاه، وتتميّز هذه الأجهزة
+                                                        بتوفّرها بأحجام مُتعدّدة؛ حيث يُمكن وضع الصّغير منها بجانب
+                                                        السّرير. ومن الجدير بالذّكر أنّه يجب وضع جهاز مرذاذ البُخار
+                                                        (بالإنجليزيّة: Steam vaporizer) على بعد مُناسب من الأطفال، أي
+                                                        على بعدٍ لا يقلّ عن 122 سنتيميتر، وذلك لأنّ الجهاز يقوم بتسخين
+                                                        الماء بداخله ثمّ إخراجه عى شكل رذاذ ساخن، الأمر الذي قد يُؤدّي
+                                                        إلى إحداث الحروق في حال كان المرذاذ قريباً من الأطفال، وللحفاظ
+                                                        على الجهاز يُنصح باستخدام الكميّات المُناسبة من المياه المُقطّرة
+                                                        لتجنّب تكوّن الرّواسب المعدنيّة قدر الإمكان، ويُنصح بوضع الجهاز
+                                                        على سطح مُستوٍ، والمُحافظة على تنظيف الجهاز باستمرار.<sup
+                                                            id="cite_ref-0FGFyLnprv_7-0" class="reference"><a
+                                                                href="#cite_note-0FGFyLnprv-7">[٧]</a></sup></li>
+                                                    <li><b>تسخين الماء على الغاز:</b> إذا لم تتوفّر أجهزة الترطيب
+                                                        المنزليّة، يُمكن استخدام الطريقة البسيطة التي تعتمد على غلي
+                                                        الماء في وعاء خاصّ على موقد الغاز لمدّة ثلاثين دقيقة، مع
+                                                        إمكانيّة إضافة المنثول (بالإنجليزيّة: Menthol) الذي يعمل كمُزيلٍ
+                                                        للاحتقان، وذلك لترطيب المنزل والمساعدة على إزالة الاحتقان <a
+                                                            href="/%D9%83%D9%8A%D9%81_%D9%86%D8%B9%D8%A7%D9%84%D8%AC_%D8%A7%D9%86%D8%B3%D8%AF%D8%A7%D8%AF_%D8%A7%D9%84%D8%A7%D9%86%D9%81"
+                                                            title="كيف نعالج انسداد الانف"
+                                                            class="mw-redirect">الأنفي</a> الموجود.<sup
+                                                            id="cite_ref-97zs5pEHss_4-2" class="reference"><a
+                                                                href="#cite_note-97zs5pEHss-4">[٤]</a></sup></li>
+                                                </ul>
+                                                <p><br></p>
+                                                <h2><span class="mw-headline"
+                                                        id=".D8.A7.D9.84.D8.A5.D8.B6.D8.A7.D9.81.D8.A7.D8.AA_.D8.A7.D9.84.D9.85.D9.8F.D9.85.D9.83.D9.86.D8.A9_.D9.84.D9.84.D8.A8.D8.AE.D8.A7.D8.B1"><b>الإضافات
+                                                            المُمكنة للبخار</b></span></h2>
+                                                <p>تنصح الجمعيّة الوطنيّة للعلاج العِطريّ الشموليّ (بالإنجليزيّة:
+                                                    National Association for Holistic Aromatherapy) بإضافة ثلاث إلى سبع
+                                                    نقاط من الزّيوت العطريّة إلى الوعاء المُحتوي على المياه المغليّة، أو
+                                                    إضافة نقطتين إلى عشر نقاط من الزّيوت العطريّة إلى مياه حوض
+                                                    الاستحمام، وذلك لزيادة الاستفادة من عمليّة استنشاق <a
+                                                        href="/%D9%83%D9%8A%D9%81%D9%8A%D8%A9_%D8%B9%D9%85%D9%84_%D8%A8%D8%AE%D8%A7%D8%B1_%D9%84%D9%84%D9%88%D8%AC%D9%87_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D9%86%D8%B2%D9%84"
+                                                        title="كيفية عمل بخار للوجه في المنزل">البخار</a> في تخفيف
+                                                    الأعراض التنفسيّة المُزعجة والمُساعدة على النّوم، ومن الأمثلة على
+                                                    الزّيوت الأساسيّة المُمكن استخدامها؛ زيت شجرة الشّاي (بالإنجليزيّة:
+                                                    Tea tree oil)، وزيت الأوكاليبتوس (بالإنجليزيّة: Eucalyptus oil)،
+                                                    وزيت <a
+                                                        href="/%D9%85%D8%A7_%D9%87%D9%88_%D8%A7%D9%84%D9%86%D8%B9%D9%86%D8%A7%D8%B9_%D8%A7%D9%84%D9%81%D9%84%D9%81%D9%84%D9%8A"
+                                                        title="ما هو النعناع الفلفلي">النّعناع الفلفلي</a>
+                                                    (بالإنجليزيّة: Peppermint oil)، وزيت الزّعتر البرّي (بالإنجليزيّة:
+                                                    oregano oil)، وزيت <a
+                                                        href="/%D9%81%D9%88%D8%A7%D8%A6%D8%AF_%D8%B9%D8%B4%D8%A8%D8%A9_%D8%A7%D9%84%D8%A8%D8%A7%D8%A8%D9%88%D9%86%D8%AC"
+                                                        title="فوائد عشبة البابونج">البابونج</a> (بالإنجليزيّة:
+                                                    Chamomile oil)، وزيت <a
+                                                        href="/%D9%81%D9%88%D8%A7%D8%A6%D8%AF_%D8%B2%D9%87%D8%B1_%D8%A7%D9%84%D8%AE%D8%B2%D8%A7%D9%85%D9%89"
+                                                        title="فوائد زهر الخزامى">الخُزامى</a> (بالإنجليزيّة: Lavender
+                                                    oil).<sup id="cite_ref-HpJCMM1Dp0_2-2" class="reference"><a
+                                                            href="#cite_note-HpJCMM1Dp0-2">[٢]</a></sup><sup
+                                                        id="cite_ref-3H1I0H8p9I_3-1" class="reference"><a
+                                                            href="#cite_note-3H1I0H8p9I-3">[٣]</a></sup></p>
+                                                <p><br></p>
+                                                <h2><span class="mw-headline"
+                                                        id=".D9.85.D8.AD.D8.A7.D8.B0.D9.8A.D8.B1_.D8.A7.D8.B3.D8.AA.D9.86.D8.B4.D8.A7.D9.82_.D8.A7.D9.84.D8.A8.D8.AE.D8.A7.D8.B1"><b>محاذير
+                                                            استنشاق البخار</b></span></h2>
+                                                <p>قد يترتّب على استنشاق البخار بعض المضارّ إذا أُسيء استعماله، لذلك يجب
+                                                    تنبيه المستخدم إلى بعض الأمور، ومنها ما يلي:
+                                                </p>
+                                                <ul>
+                                                    <li>إغلاق العينين لتجنّب حدوث التهيّج والتحسّس من بخار الماء الساخن
+                                                        عند استعمال الوعاء المفتوح والمنشفة.<sup
+                                                            id="cite_ref-HpJCMM1Dp0_2-3" class="reference"><a
+                                                                href="#cite_note-HpJCMM1Dp0-2">[٢]</a></sup></li>
+                                                    <li>تجنّب استنشاق الزّيوت العطريّة بكميّات كبيرة أو لفتراتٍ طويلة من
+                                                        الزّمن؛ فذلك قد يؤدّي إلى الشّعور بالدّوار (بالإنجليزيّة:
+                                                        Dizziness)، والصّداع (بالإنجليزيّة: Headache)، والغثيان
+                                                        (بالإنجليزيّة: Nausea)، وتجدر الإشارة إلى أنّه يُمنع استنشاق
+                                                        الزيوت العطرية من قبل الأطفال <a
+                                                            href="/%D8%AA%D8%BA%D8%B0%D9%8A%D8%A9_%D8%A7%D9%84%D8%A3%D9%85_%D8%A7%D9%84%D8%AD%D8%A7%D9%85%D9%84"
+                                                            title="تغذية الأم الحامل">والحوامل</a>.<sup
+                                                            id="cite_ref-HpJCMM1Dp0_2-4" class="reference"><a
+                                                                href="#cite_note-HpJCMM1Dp0-2">[٢]</a></sup></li>
+                                                    <li>ترك مسافة كافية لا تقلّ عن 25سم بين الوجه والوعاء المُحتوي على
+                                                        الماء السّاخن؛ وذلك لتفادي حدوث حروق البُخار (بالإنجليزيّة:
+                                                        Steam burn).<sup id="cite_ref-3H1I0H8p9I_3-2"
+                                                            class="reference"><a
+                                                                href="#cite_note-3H1I0H8p9I-3">[٣]</a></sup></li>
+                                                    <li>أخذ الحيطة والحذر في التعامل مع الماء المغليّ لتفادي الإصابة <a
+                                                            href="/%D8%AD%D8%B1%D9%88%D9%82_%D8%A7%D9%84%D9%85%D8%A7%D8%A1_%D8%A7%D9%84%D8%B3%D8%A7%D8%AE%D9%86"
+                                                            title="حروق الماء الساخن">بحروق الجسم</a>.<sup
+                                                            id="cite_ref-DxJv5ouoGv_1-4" class="reference"><a
+                                                                href="#cite_note-DxJv5ouoGv-1">[١]</a></sup></li>
+                                                    <li>ترك الماء المغليّ ليبرد قليلاً قبل استنشاق البُخار حتى لا يحرق
+                                                        الجلد.<sup id="cite_ref-MKGwIMpDJs_6-1" class="reference"><a
+                                                                href="#cite_note-MKGwIMpDJs-6">[٦]</a></sup></li>
+                                                    <li>وضع أجهزة التّرطيب والتّبخير بعيداً عن مُتناول الأطفال، لتفادي
+                                                        الإصابة بالحروق.<sup id="cite_ref-0FGFyLnprv_7-1"
+                                                            class="reference"><a
+                                                                href="#cite_note-0FGFyLnprv-7">[٧]</a></sup></li>
+                                                    <li>تجنّب استخدام أجهزة التّرطيب بكثرة في الغُرف، لتتفادي نموّ
+                                                        الجراثيم (بالإنجليزيّة: Germs)، والتعفّنات (بالإنجليزيّة:
+                                                        Molds).<sup id="cite_ref-0FGFyLnprv_7-2" class="reference"><a
+                                                                href="#cite_note-0FGFyLnprv-7">[٧]</a></sup></li>
+                                                </ul>
+                                                <p><br></p>
+                                                <h2><span class="mw-headline"
+                                                        id=".D9.81.D9.8A.D8.AF.D9.8A.D9.88_.D8.A7.D9.84.D8.B9.D9.84.D8.A7.D8.AC_.D8.A8.D8.A7.D8.B3.D8.AA.D9.86.D8.B4.D8.A7.D9.82_.D8.A7.D9.84.D8.A8.D8.AE.D8.A7.D8.B1"><i>فيديو
+                                                            العلاج باستنشاق البخار</i></span></h2>
+                                                <p style="">قد تُعد هذه الطريقة من طرق العلاج القديمة لكنها فعّالة جدّاً
+                                                    لعلاج احتقان الأنف، فكيف يتم العلاج باستنشاق البخار؟&nbsp;:
+                                                </p>
+                                                <div class="embedvideo " style="width: 640px;"><iframe
+                                                        src="//www.dailymotion.com/embed/video/x786wgd" width="640"
+                                                        height="360" frameborder="0" allowfullscreen="true"></iframe>
+                                                </div>
+                                                <p><br></p>
+                                                <h2><span class="mw-headline"
+                                                        id=".D8.A7.D9.84.D9.85.D8.B1.D8.A7.D8.AC.D8.B9"><b>المراجع</b></span>
+                                                </h2>
+                                                <ol class="references">
+                                                    <li id="cite_note-DxJv5ouoGv-1"><span
+                                                            class="mw-cite-backlink"><b>^</b> <a
+                                                                href="#cite_ref-DxJv5ouoGv_1-0"><sup><i><b>أ</b></i></sup></a>
+                                                            <a
+                                                                href="#cite_ref-DxJv5ouoGv_1-1"><sup><i><b>ب</b></i></sup></a>
+                                                            <a
+                                                                href="#cite_ref-DxJv5ouoGv_1-2"><sup><i><b>ت</b></i></sup></a>
+                                                            <a
+                                                                href="#cite_ref-DxJv5ouoGv_1-3"><sup><i><b>ث</b></i></sup></a>
+                                                            <a
+                                                                href="#cite_ref-DxJv5ouoGv_1-4"><sup><i><b>ج</b></i></sup></a></span>
+                                                        <span class="reference-text">Mary Harding (20-11-2015), <a
+                                                                rel="nofollow" class="external text"
+                                                                href="https://patient.info/health/nasal-congestion">"Nasal
+                                                                Congestion"</a>، <i>patient.info</i>, Retrieved
+                                                            23-10-2017. Edited.</span>
+                                                    </li>
+                                                    <li id="cite_note-HpJCMM1Dp0-2"><span
+                                                            class="mw-cite-backlink"><b>^</b> <a
+                                                                href="#cite_ref-HpJCMM1Dp0_2-0"><sup><i><b>أ</b></i></sup></a>
+                                                            <a
+                                                                href="#cite_ref-HpJCMM1Dp0_2-1"><sup><i><b>ب</b></i></sup></a>
+                                                            <a
+                                                                href="#cite_ref-HpJCMM1Dp0_2-2"><sup><i><b>ت</b></i></sup></a>
+                                                            <a
+                                                                href="#cite_ref-HpJCMM1Dp0_2-3"><sup><i><b>ث</b></i></sup></a>
+                                                            <a
+                                                                href="#cite_ref-HpJCMM1Dp0_2-4"><sup><i><b>ج</b></i></sup></a></span>
+                                                        <span class="reference-text">Annette McDermott (6-7-2016), <a
+                                                                rel="nofollow" class="external text"
+                                                                href="https://www.healthline.com/health/essential-oils-for-sinus-congestion#overview1">"Can
+                                                                Essential Oils Treat Sinus Congestion?"</a>،
+                                                            <i>www.healthline.com</i>, Retrieved 23-10-2017.
+                                                            Edited.</span>
+                                                    </li>
+                                                    <li id="cite_note-3H1I0H8p9I-3"><span
+                                                            class="mw-cite-backlink"><b>^</b> <a
+                                                                href="#cite_ref-3H1I0H8p9I_3-0"><sup><i><b>أ</b></i></sup></a>
+                                                            <a
+                                                                href="#cite_ref-3H1I0H8p9I_3-1"><sup><i><b>ب</b></i></sup></a>
+                                                            <a
+                                                                href="#cite_ref-3H1I0H8p9I_3-2"><sup><i><b>ت</b></i></sup></a></span>
+                                                        <span class="reference-text">Annette McDermott (6-7-2016), <a
+                                                                rel="nofollow" class="external text"
+                                                                href="https://www.healthline.com/health/cold-flu/essential-oils-for-colds#overview1">"Can
+                                                                Essential Oils Treat or Prevent Colds?"</a>،
+                                                            <i>www.healthline.com</i>, Retrieved 23-10-2017.
+                                                            Edited.</span>
+                                                    </li>
+                                                    <li id="cite_note-97zs5pEHss-4"><span
+                                                            class="mw-cite-backlink"><b>^</b> <a
+                                                                href="#cite_ref-97zs5pEHss_4-0"><sup><i><b>أ</b></i></sup></a>
+                                                            <a
+                                                                href="#cite_ref-97zs5pEHss_4-1"><sup><i><b>ب</b></i></sup></a>
+                                                            <a
+                                                                href="#cite_ref-97zs5pEHss_4-2"><sup><i><b>ت</b></i></sup></a></span>
+                                                        <span class="reference-text">Kimberly Holland and Stephanie
+                                                            Watson (25-5-2017), <a rel="nofollow" class="external text"
+                                                                href="https://www.healthline.com/health/cold-flu/help-sore-throats#overview1">"Help
+                                                                for Sore Throats"</a>، <i>www.healthline.com</i>,
+                                                            Retrieved 23-10-2017. Edited.</span>
+                                                    </li>
+                                                    <li id="cite_note-LEGLnrKD8r-5"><span class="mw-cite-backlink"><a
+                                                                href="#cite_ref-LEGLnrKD8r_5-0">↑</a></span> <span
+                                                            class="reference-text"><a rel="nofollow"
+                                                                class="external text"
+                                                                href="http://www.mydr.com.au/respiratory-health/cough-productive-or-wet-cough-treatments">"Cough:
+                                                                productive or 'wet' cough treatments"</a>,
+                                                            <i>www.mydr.com.au</i>,13-5-2014، Retrieved 23-10-2017.
+                                                            Edited.</span>
+                                                    </li>
+                                                    <li id="cite_note-MKGwIMpDJs-6"><span
+                                                            class="mw-cite-backlink"><b>^</b> <a
+                                                                href="#cite_ref-MKGwIMpDJs_6-0"><sup><i><b>أ</b></i></sup></a>
+                                                            <a
+                                                                href="#cite_ref-MKGwIMpDJs_6-1"><sup><i><b>ب</b></i></sup></a></span>
+                                                        <span class="reference-text">Lana Burgess (30-8-2017), <a
+                                                                rel="nofollow" class="external text"
+                                                                href="https://www.medicalnewstoday.com/articles/319175.php">"Seven
+                                                                home remedies for shortness of breath"</a>،
+                                                            <i>www.medicalnewstoday.com</i>, Retrieved 23-10-2017.
+                                                            Edited.</span>
+                                                    </li>
+                                                    <li id="cite_note-0FGFyLnprv-7"><span
+                                                            class="mw-cite-backlink"><b>^</b> <a
+                                                                href="#cite_ref-0FGFyLnprv_7-0"><sup><i><b>أ</b></i></sup></a>
+                                                            <a
+                                                                href="#cite_ref-0FGFyLnprv_7-1"><sup><i><b>ب</b></i></sup></a>
+                                                            <a
+                                                                href="#cite_ref-0FGFyLnprv_7-2"><sup><i><b>ت</b></i></sup></a></span>
+                                                        <span class="reference-text"><a rel="nofollow"
+                                                                class="external text"
+                                                                href="https://www.drugs.com/cg/humidifiers-and-vaporizers.html">"Humidifiers
+                                                                And Vaporizers"</a>, <i>www.drugs.com</i>, Retrieved
+                                                            23-10-2017. Edited.</span>
+                                                    </li>
+                                                </ol>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="interactivity" class="interactivity clearfix">
+                                    <div class="read-more-article hidden-desktop"
+                                        style="display: block; border-top: 2px solid rgb(221, 221, 221); background-color: rgb(248, 248, 248);">
+                                        <ul>
+                                            <li class="first" style="display: none;"><a href="/فوائد_استنشاق_بخار_الماء"
+                                                    onclick="ga('send', 'event', 'AP', 'click', 'R-M', 13);"><img
+                                                        src="https://modo3.com/thumbs/fit130x75/173149/1493119007/فوائد_استنشاق_بخار_الماء.jpg"
+                                                        title="فوائد استنشاق بخار الماء"
+                                                        alt="فوائد استنشاق بخار الماء"><span>فوائد استنشاق بخار
+                                                        الماء</span></a></li>
+                                            <li class="second" style="display: list-item;"><a
+                                                    href="/كيف_التخلص_من_البلغم" class="block"
+                                                    onclick="ga('send', 'event', 'AP', 'click', 'R-M', 13);"><img
+                                                        src="https://modo3.com/thumbs/fit130x75/11753/1434289750/كيف_التخلص_من_البلغم.jpg"
+                                                        title="كيف التخلص من البلغم"
+                                                        alt="كيف التخلص من البلغم"><span>كيف التخلص من البلغم</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="share visible-desktop hidden-mobile hidden-tablet"
+                                        style="display: none;">
+                                        <ul>
+                                            <li>شارك المقالة</li>
+
+
+                                            <li class="share-facebook"><a title="شارك على فيسبوك" rel="nofollow"
+                                                    href="https://www.facebook.com/sharer/sharer.php?u=https://mawdoo3.com/العلاج_باستنشاق_البخار"
+                                                    onclick="window.open(this.href, 'fbwin',
+ 
+'left=20,top=20,width=500,height=300,toolbar=1,resizable=0');ga('send', 'event', 'share links', 'click', 'facebook-share-desktop', 0);return false;">فيسبوك</a>
+                                            </li>
+                                            <li class="share-twitter"><a title="شارك على تويتر" rel="nofollow"
+                                                    href="https://twitter.com/intent/tweet?text=%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D8%AC+%D8%A8%D8%A7%D8%B3%D8%AA%D9%86%D8%B4%D8%A7%D9%82+%D8%A7%D9%84%D8%A8%D8%AE%D8%A7%D8%B1+%D8%B9%D9%84%D9%89+%23%D9%85%D9%88%D8%B6%D9%88%D8%B9++-+%40mawdoo3&amp;url=https://mawdoo3.com/%25D8%25A7%25D9%2584%25D8%25B9%25D9%2584%25D8%25A7%25D8%25AC_%25D8%25A8%25D8%25A7%25D8%25B3%25D8%25AA%25D9%2586%25D8%25B4%25D8%25A7%25D9%2582_%25D8%25A7%25D9%2584%25D8%25A8%25D8%25AE%25D8%25A7%25D8%25B1"
+                                                    onclick="window.open(this.href, 'fbwin',
+'left=20,top=20,width=500,height=300,toolbar=1,resizable=0');ga('send', 'event', 'share links', 'click', 'twitte-share-desktop', 0); return false;">تويتر</a>
+                                            </li>
+                                            <li class="share-google"><a title="شارك على جوجل+" rel="nofollow"
+                                                    href="https://plus.google.com/share?url=https://mawdoo3.com/العلاج_باستنشاق_البخار"
+                                                    onclick="window.open(this.href, 'fbwin',
+'left=20,top=20,width=500,height=300,toolbar=1,resizable=0');ga('send', 'event', 'share links', 'click','googleplus-share-desktop', 0); return false;">جوجل+</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div id="share-on-mobile" class="share hidden-desktop"
+                                        style="display: table; background-color: rgb(248, 248, 248); border-top: 2px solid rgb(221, 221, 221);">
+                                        <ul>
+                                            <li>شارك المقالة</li>
+                                            <li class="share-whatsapp hidden-desktop"><a
+                                                    onclick="ga('send', 'event', 'share links', 'click', 'whatsapp-share-mobile', 1);"
+                                                    href="whatsapp://send?text=أنصحك بقراءة المقال التالي من موضوع: العلاج باستنشاق البخار%0Ahttps://mawdoo3.com/العلاج_باستنشاق_البخار"
+                                                    rel="nofollow"></a></li>
+
+                                            <li class="share-facebook"><a title="شارك على فيسبوك" rel="nofollow"
+                                                    href="https://www.facebook.com/sharer/sharer.php?u=https://mawdoo3.com/العلاج_باستنشاق_البخار"
+                                                    onclick="window.open(this.href, 'fbwin',
+'left=20,top=20,width=500,height=300,toolbar=1,resizable=0');ga('send', 'event', 'share links', 'click', 'facebook-share-mobile', 1); return false;">فيسبوك</a>
+                                            </li>
+                                            <li class="share-twitter"><a title="شارك على تويتر" rel="nofollow"
+                                                    href="https://twitter.com/intent/tweet?text=%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D8%AC+%D8%A8%D8%A7%D8%B3%D8%AA%D9%86%D8%B4%D8%A7%D9%82+%D8%A7%D9%84%D8%A8%D8%AE%D8%A7%D8%B1+%D8%B9%D9%84%D9%89+%23%D9%85%D9%88%D8%B6%D9%88%D8%B9++-+%40mawdoo3&amp;url=https://mawdoo3.com/%25D8%25A7%25D9%2584%25D8%25B9%25D9%2584%25D8%25A7%25D8%25AC_%25D8%25A8%25D8%25A7%25D8%25B3%25D8%25AA%25D9%2586%25D8%25B4%25D8%25A7%25D9%2582_%25D8%25A7%25D9%2584%25D8%25A8%25D8%25AE%25D8%25A7%25D8%25B1"
+                                                    onclick="window.open(this.href, 'fbwin',
+'left=20,top=20,width=500,height=300,toolbar=1,resizable=0');ga('send', 'event', 'share links', 'click', 'twitte-share-mobile', 1); return false;">تويتر</a>
+                                            </li>
+                                            <li class="share-google"><a title="شارك على جوجل+" rel="nofollow"
+                                                    href="https://plus.google.com/share?url=https://mawdoo3.com/العلاج_باستنشاق_البخار"
+                                                    onclick="window.open(this.href, 'fbwin',
+'left=20,top=20,width=500,height=300,toolbar=1,resizable=0');ga('send', 'event', 'share links', 'click','googleplus-share-mobile', 1); return false;">جوجل+</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="views" id="views"><span class="icon"></span> 5806 مشاهدة</div>
+                                </div>
+                            </div>
+
+                            <div id="related-list2" class="related-articles-list2" style="
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+">
+                                <h2 class="top-title">مواضيع ذات صلة بـ : العلاج باستنشاق البخار </h2>
+                                <br>
+                                <ul id="categories-list" class="row categories-list" itemscope=""
+                                    itemtype="https://schema.org/Encyclopedia" style="margin-bottom: 0px;">
+                                    <li class="columns large-4 medium-3 small-6"> <a
+                                            href="/طريقة_استخدام_جهاز_البخار_للأطفال" class="category-box"
+                                            onclick="ga('send', 'event', 'AP', 'click', 'BR', 4);"><img
+                                                title="طريقة استخدام جهاز البخار للأطفال"
+                                                src="https://modo3.com/thumbs/fit192x110/108634/1476456369/طريقة_استخدام_جهاز_البخار_للأطفال.jpg"
+                                                class="avatar" width="192" height="110"
+                                                alt="طريقة استخدام جهاز البخار للأطفال" itemprop="articleAvatar">
+                                            <span class="title" itemprop="articleName">طريقة استخدام جهاز البخار
+                                                للأطفال</span>
+                                        </a> </li>
+                                    <li class="columns large-4 medium-3 small-6"> <a href="/فوائد_استنشاق_هواء_البحر"
+                                            class="category-box"
+                                            onclick="ga('send', 'event', 'AP', 'click', 'BR', 4);"><img
+                                                title="فوائد استنشاق هواء البحر"
+                                                src="https://modo3.com/thumbs/fit192x110/179721/1515920789/فوائد_استنشاق_هواء_البحر.jpg"
+                                                class="avatar" width="192" height="110" alt="فوائد استنشاق هواء البحر"
+                                                itemprop="articleAvatar">
+                                            <span class="title" itemprop="articleName">فوائد استنشاق هواء البحر</span>
+                                        </a> </li>
+                                    <li class="columns large-4 medium-3 small-6"> <a
+                                            href="/أفضل_علاج_للسعال_عند_الأطفال" class="category-box"
+                                            onclick="ga('send', 'event', 'AP', 'click', 'BR', 4);"><img
+                                                title="أفضل علاج للسعال عند الأطفال"
+                                                src="https://modo3.com/thumbs/fit192x110/109993/1476461799/أفضل_علاج_للسعال_عند_الأطفال.jpg"
+                                                class="avatar" width="192" height="110"
+                                                alt="أفضل علاج للسعال عند الأطفال" itemprop="articleAvatar">
+                                            <span class="title" itemprop="articleName">أفضل علاج للسعال عند
+                                                الأطفال</span>
+                                        </a> </li>
+                                    <li class="columns large-4 medium-3 small-6"> <a href="/علاج_سريع_للحساسية"
+                                            class="category-box"
+                                            onclick="ga('send', 'event', 'AP', 'click', 'BR', 4);"><img
+                                                title="علاج سريع للحساسية"
+                                                src="https://modo3.com/thumbs/fit192x110/155178/1519542804/علاج_سريع_للحساسية.jpg"
+                                                class="avatar" width="192" height="110" alt="علاج سريع للحساسية"
+                                                itemprop="articleAvatar">
+                                            <span class="title" itemprop="articleName">علاج سريع للحساسية</span>
+                                        </a> </li>
+                                    <li class="columns large-4 medium-3 small-6"> <a href="/ما_علاج_إنسداد_الأنف"
+                                            class="category-box"
+                                            onclick="ga('send', 'event', 'AP', 'click', 'BR', 4);"><img
+                                                title="ما علاج إنسداد الأنف"
+                                                src="https://modo3.com/thumbs/fit192x110/30960/1436873631/ما_علاج_إنسداد_الأنف.jpg"
+                                                class="avatar" width="192" height="110" alt="ما علاج إنسداد الأنف"
+                                                itemprop="articleAvatar">
+                                            <span class="title" itemprop="articleName">ما علاج إنسداد الأنف</span>
+                                        </a> </li>
+                                    <li class="columns large-4 medium-3 small-6"> <a href="/كيف_نعالج_انسداد_الأنف"
+                                            class="category-box"
+                                            onclick="ga('send', 'event', 'AP', 'click', 'BR', 4);"><img
+                                                title="كيف نعالج انسداد الأنف"
+                                                src="https://modo3.com/thumbs/fit192x110/30288/1436869017/كيف_نعالج_انسداد_الأنف.jpg"
+                                                class="avatar" width="192" height="110" alt="كيف نعالج انسداد الأنف"
+                                                itemprop="articleAvatar">
+                                            <span class="title" itemprop="articleName">كيف نعالج انسداد الأنف</span>
+                                        </a> </li>
+                                    <li class="columns large-4 medium-3 small-6"> <a href="/علاج_ضيق_التنفس_من_الأنف"
+                                            class="category-box"
+                                            onclick="ga('send', 'event', 'AP', 'click', 'BR', 4);"><img
+                                                title="علاج ضيق التنفس من الأنف"
+                                                src="https://modo3.com/thumbs/fit192x110/70037/1472546202/علاج_ضيق_التنفس_من_الأنف.jpg"
+                                                class="avatar" width="192" height="110" alt="علاج ضيق التنفس من الأنف"
+                                                itemprop="articleAvatar">
+                                            <span class="title" itemprop="articleName">علاج ضيق التنفس من الأنف</span>
+                                        </a> </li>
+                                    <li class="columns large-4 medium-3 small-6"> <a href="/كيف_تعالج_فقدان_حاسة_الشم"
+                                            class="category-box"
+                                            onclick="ga('send', 'event', 'AP', 'click', 'BR', 4);"><img
+                                                title="كيف تعالج فقدان حاسة الشم"
+                                                src="https://modo3.com/thumbs/fit192x110/71198/1448549873/كيف_تعالج_فقدان_حاسة_الشم.jpg"
+                                                class="avatar" width="192" height="110" alt="كيف تعالج فقدان حاسة الشم"
+                                                itemprop="articleAvatar">
+                                            <span class="title" itemprop="articleName">كيف تعالج فقدان حاسة الشم</span>
+                                        </a> </li>
+                                    <li class="columns large-4 medium-3 small-6"> <a href="/فوائد_استنشاق_بخار_الماء"
+                                            class="category-box"
+                                            onclick="ga('send', 'event', 'AP', 'click', 'BR', 4);"><img
+                                                title="فوائد استنشاق بخار الماء"
+                                                src="https://modo3.com/thumbs/fit192x110/173149/1493119007/فوائد_استنشاق_بخار_الماء.jpg"
+                                                class="avatar" width="192" height="110" alt="فوائد استنشاق بخار الماء"
+                                                itemprop="articleAvatar">
+                                            <span class="title" itemprop="articleName">فوائد استنشاق بخار الماء</span>
+                                        </a> </li>
+                                </ul>
+
+                            </div>
+
+                            <script type="text/javascript">
+                                if (checkMyRelatedScenario() == "desktop") {
+                                    document.write('<div class="related-articles-list2">\n' +
+                                        '                    <h2 class="top-title">قد يعجبك أيضاً</h2>\n' +
+                                        '                    <div id="paidmr">\n' +
+                                        '                        <div id="pdmr1" class="mrblock"></div>\n' +
+                                        '                        <div id="pdmr2" class="mrblock"></div>\n' +
+                                        '                        <div id="pdmr3" class="mrblock"></div>\n' +
+                                        '                        <div id="pdmr4" class="mrblock"></div>\n' +
+                                        '                    </div>\n' +
+                                        '                </div>');
+                                }
+                            </script>
+
+
+                        </div>
+
+                    </article>
+                    <aside class="columns large-4 medium-12 small-12">
+
+                        <div class="side-box" style="
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+"> <strong class="top-title">الزوار شاهدوا أيضاً</strong>
+                            <ul class="list vertical" itemscope="" itemtype="https://schema.org/Encyclopedia" style="
+    /* background-color: #f8f8f8; */
+">
+                                <li class="columns large-6 medium-3 small-6"><a href="/علاج_الذئبة_الحمراء_بالطب_البديل"
+                                        title="علاج الذئبة الحمراء بالطب البديل"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'VV', 2);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/1425/1436356928/علاج_الذئبة_الحمراء_بالطب_البديل.jpg"
+                                            alt="علاج الذئبة الحمراء بالطب البديل"
+                                            title="علاج الذئبة الحمراء بالطب البديل"><span class="title"
+                                            itemprop="articleName">علاج الذئبة الحمراء بالطب البديل</span></a></li>
+                                <li class="columns large-6 medium-3 small-6"><a href="/العلاج_بالإبر_الصينية"
+                                        title="العلاج بالإبر الصينية"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'VV', 2);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/1599/1415885890/العلاج_بالإبر_الصينية.jpg"
+                                            alt="العلاج بالإبر الصينية" title="العلاج بالإبر الصينية"><span
+                                            class="title" itemprop="articleName">العلاج بالإبر الصينية</span></a></li>
+                                <li class="columns large-6 medium-3 small-6" id="NativeArticle"
+                                    data-google-query-id="CL7Jve253uMCFdarewodP3wB1w" style="display: none;">
+                                    <div id="google_ads_iframe_/7229/Mawdou3/Health_2__container__"
+                                        style="border: 0pt none; margin: auto; text-align: center; width: 2px; height: 2px;">
+                                    </div>
+                                </li>
+                                <li class="columns large-6 medium-3 small-6"><a href="/الطب_الصيني" title="الطب الصيني"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'VV', 2);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/2619/1351691234/الطب_الصيني.jpg"
+                                            alt="الطب الصيني" title="الطب الصيني"><span class="title"
+                                            itemprop="articleName">الطب الصيني</span></a></li>
+                                <li class="columns large-6 medium-3 small-6"><a href="/العلاج_بالتأمل"
+                                        title="العلاج بالتأمل"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'VV', 2);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/1606/1348652594/العلاج_بالتأمل.jpg"
+                                            alt="العلاج بالتأمل" title="العلاج بالتأمل"><span class="title"
+                                            itemprop="articleName">العلاج بالتأمل</span></a></li>
+                                <li class="columns large-6 medium-3 small-6"><a href="/العلاج_بالضحك"
+                                        title="العلاج بالضحك"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'VV', 2);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/2535/1444810264/العلاج_بالضحك.jpg"
+                                            alt="العلاج بالضحك" title="العلاج بالضحك"><span class="title"
+                                            itemprop="articleName">العلاج بالضحك</span></a></li>
+                                <li class="columns large-6 medium-3 small-6"><a href="/العلاج_بالموسيقى"
+                                        title="العلاج بالموسيقى"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'VV', 2);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/1597/1415886108/العلاج_بالموسيقى.jpg"
+                                            alt="العلاج بالموسيقى" title="العلاج بالموسيقى"><span class="title"
+                                            itemprop="articleName">العلاج بالموسيقى</span></a></li>
+                                <li class="columns large-6 medium-3 small-6"><a href="/علاج_الضوء_الساطع"
+                                        title="علاج الضوء الساطع"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'VV', 2);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/1595/1415886074/علاج_الضوء_الساطع.jpg"
+                                            alt="علاج الضوء الساطع" title="علاج الضوء الساطع"><span class="title"
+                                            itemprop="articleName">علاج الضوء الساطع</span></a></li>
+                                <li class="columns large-6 medium-3 small-6"><a
+                                        href="/الوخز_بالإبر_لعلاج_الأمراض_المختلفة"
+                                        title="الوخز بالإبر لعلاج الأمراض المختلفة"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'VV', 2);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/2522/1415886177/الوخز_بالإبر_لعلاج_الأمراض_المختلفة.jpg"
+                                            alt="الوخز بالإبر لعلاج الأمراض المختلفة"
+                                            title="الوخز بالإبر لعلاج الأمراض المختلفة"><span class="title"
+                                            itemprop="articleName">الوخز بالإبر لعلاج الأمراض المختلفة</span></a></li>
+                                <li class="columns large-6 medium-3 small-6"><a href="/العلاج_بالبرودة"
+                                        title="العلاج بالبرودة"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'VV', 2);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/1601/1415886247/العلاج_بالبرودة.jpg"
+                                            alt="العلاج بالبرودة" title="العلاج بالبرودة"><span class="title"
+                                            itemprop="articleName">العلاج بالبرودة</span></a></li>
+                                <li class="columns large-6 medium-3 small-6"><a href="/العلاج_بالتنويم"
+                                        title="العلاج بالتنويم"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'VV', 2);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/1603/1415886370/العلاج_بالتنويم.jpg"
+                                            alt="العلاج بالتنويم" title="العلاج بالتنويم"><span class="title"
+                                            itemprop="articleName">العلاج بالتنويم</span></a></li>
+                                <li class="columns large-6 medium-3 small-6"><a href="/فوائد_البيض_المسلوق"
+                                        title="فوائد البيض المسلوق"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'VV', 2);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/44417/1440589216/فوائد_البيض_المسلوق.jpg"
+                                            alt="فوائد البيض المسلوق" title="فوائد البيض المسلوق"><span class="title"
+                                            itemprop="articleName">فوائد البيض المسلوق</span></a></li>
+                                <li class="columns large-6 medium-3 small-6"><a href="/فوائد_كثرة_شرب_الماء"
+                                        title="فوائد كثرة شرب الماء"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'VV', 2);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/43217/1440596110/فوائد_كثرة_شرب_الماء.jpg"
+                                            alt="فوائد كثرة شرب الماء" title="فوائد كثرة شرب الماء"><span class="title"
+                                            itemprop="articleName">فوائد كثرة شرب الماء</span></a></li>
+                            </ul>
+                        </div>
+
+                        <script type="text/javascript">
+                            if (checkScenario("MPU") == "desktop") {
+                                document.write('<div id="MPU" class="ads-side"></div>');
+                            }
+                        </script>
+                        <div id="MPU" class="ads-side" data-google-query-id="CL3Jve253uMCFdarewodP3wB1w"
+                            style="display: none;">
+                            <div id="google_ads_iframe_/7229/Mawdou3/Health_1__container__"
+                                style="border: 0pt none; margin: auto; text-align: center; width: 300px; height: 250px;">
+                            </div>
+                        </div>
+                        <script type="text/javascript">
+                            if (checkMyRelatedScenario() == "mobile") {
+                                document.write('<div class="related-articles-list2">\n' +
+                                    '                    <h2 class="top-title">قد يعجبك أيضاً</h2>\n' +
+                                    '                    <div id="paidmr">\n' +
+                                    '                        <div id="pdmr1" class="mrblock"></div>\n' +
+                                    '                        <div id="pdmr2" class="mrblock"></div>\n' +
+                                    '                        <div id="pdmr3" class="mrblock"></div>\n' +
+                                    '                        <div id="pdmr4" class="mrblock"></div>\n' +
+                                    '                    </div>\n' +
+                                    '                </div><br>');
+                            }
+                        </script>
+                        <div class="side-box" style="
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+"> <strong class="top-title">مقالات من تصنيف طب بديل</strong>
+                            <ul class="list vertical" itemscope="" itemtype="https://schema.org/Encyclopedia">
+                                <li class="columns large-6 medium-3 small-6"><a href="/فوائد_الشجرة_وأهميتها"
+                                        title="فوائد الشجرة وأهميتها"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'SC', 5);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/45615/1430220963/فوائد_الشجرة_وأهميتها.jpg"
+                                            alt="فوائد الشجرة وأهميتها" title="فوائد الشجرة وأهميتها"><span
+                                            class="title" itemprop="articleName">فوائد الشجرة وأهميتها</span></a></li>
+                                <li class="columns large-6 medium-3 small-6"><a href="/ما_معنى_أجسام_مضادة"
+                                        title="ما معنى أجسام مضادة"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'SC', 5);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/15042/1519811759/ما_معنى_أجسام_مضادة.jpg"
+                                            alt="ما معنى أجسام مضادة" title="ما معنى أجسام مضادة"><span class="title"
+                                            itemprop="articleName">ما معنى أجسام مضادة</span></a></li>
+                                <li class="columns large-6 medium-3 small-6"><a href="/ما_هي_التلبينة"
+                                        title="ما هي التلبينة"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'SC', 5);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/15790/1429618418/ما_هي_التلبينة.jpg"
+                                            alt="ما هي التلبينة" title="ما هي التلبينة"><span class="title"
+                                            itemprop="articleName">ما هي التلبينة</span></a></li>
+                                <li class="columns large-6 medium-3 small-6"><a href="/فوائد_خميرة_البيرة"
+                                        title="فوائد خميرة البيرة"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'SC', 5);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/46636/1434024900/فوائد_خميرة_البيرة.jpg"
+                                            alt="فوائد خميرة البيرة" title="فوائد خميرة البيرة"><span class="title"
+                                            itemprop="articleName">فوائد خميرة البيرة</span></a></li>
+                                <li class="columns large-6 medium-3 small-6"><a href="/ما_هي_فوائد_الحجامة_للرجال"
+                                        title="ما هي فوائد الحجامة للرجال"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'SC', 5);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/31869/1423948931/ما_هي_فوائد_الحجامة_للرجال.jpg"
+                                            alt="ما هي فوائد الحجامة للرجال" title="ما هي فوائد الحجامة للرجال"><span
+                                            class="title" itemprop="articleName">ما هي فوائد الحجامة للرجال</span></a>
+                                </li>
+                                <li class="columns large-6 medium-3 small-6"><a href="/كيفية_تقوية_جهاز_المناعة"
+                                        title="كيفية تقوية جهاز المناعة"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'SC', 5);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/6893/1436978258/كيفية_تقوية_جهاز_المناعة.jpg"
+                                            alt="كيفية تقوية جهاز المناعة" title="كيفية تقوية جهاز المناعة"><span
+                                            class="title" itemprop="articleName">كيفية تقوية جهاز المناعة</span></a>
+                                </li>
+                                <li class="columns large-6 medium-3 small-6"><a href="/فوائد_الخميرة_وأضرارها"
+                                        title="فوائد الخميرة وأضرارها"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'SC', 5);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/45361/1430133848/فوائد_الخميرة_وأضرارها.jpg"
+                                            alt="فوائد الخميرة وأضرارها" title="فوائد الخميرة وأضرارها"><span
+                                            class="title" itemprop="articleName">فوائد الخميرة وأضرارها</span></a></li>
+                                <li class="columns large-6 medium-3 small-6"><a href="/فوائد_السمن_البلدي"
+                                        title="فوائد السمن البلدي"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'SC', 5);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/45287/1430138671/فوائد_السمن_البلدي.jpg"
+                                            alt="فوائد السمن البلدي" title="فوائد السمن البلدي"><span class="title"
+                                            itemprop="articleName">فوائد السمن البلدي</span></a></li>
+                                <li class="columns large-6 medium-3 small-6"><a href="/فوائد_البيض_المقلي"
+                                        title="فوائد البيض المقلي"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'SC', 5);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/46025/1433671041/فوائد_البيض_المقلي.jpg"
+                                            alt="فوائد البيض المقلي" title="فوائد البيض المقلي"><span class="title"
+                                            itemprop="articleName">فوائد البيض المقلي</span></a></li>
+                                <li class="columns large-6 medium-3 small-6"><a href="/كيف_أطرد_الطاقة_السلبية"
+                                        title="كيف أطرد الطاقة السلبية"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'SC', 5);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/25123/1437049566/كيف_أطرد_الطاقة_السلبية.jpg"
+                                            alt="كيف أطرد الطاقة السلبية" title="كيف أطرد الطاقة السلبية"><span
+                                            class="title" itemprop="articleName">كيف أطرد الطاقة السلبية</span></a></li>
+                                <li class="columns large-6 medium-3 small-6"><a href="/كيف_أزيل_آثار_الجروح"
+                                        title="كيف أزيل آثار الجروح"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'SC', 5);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/23829/1519811448/كيف_أزيل_آثار_الجروح.jpg"
+                                            alt="كيف أزيل آثار الجروح" title="كيف أزيل آثار الجروح"><span class="title"
+                                            itemprop="articleName">كيف أزيل آثار الجروح</span></a></li>
+                                <li class="columns large-6 medium-3 small-6"><a href="/حبة_البركة_والعسل"
+                                        title="حبة البركة والعسل"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'SC', 5);"><img
+                                            itemprop="articleAvatar"
+                                            src="https://modo3.com/thumbs/fit130x75/10261/1434285558/حبة_البركة_والعسل.jpg"
+                                            alt="حبة البركة والعسل" title="حبة البركة والعسل"><span class="title"
+                                            itemprop="articleName">حبة البركة والعسل</span></a></li>
+                            </ul>
+                        </div>
+
+                        <div class="side-box" style="
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+"> <strong class="top-title">مقالات منوعة</strong>
+                            <ul class="list horizontal" itemscope="" itemtype="https://schema.org/Encyclopedia">
+                                <li><a itemprop="articleName" href="/اقوال_سلمان_العودة" title="اقوال سلمان العودة"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'RA', 6);"> اقوال سلمان العودة</a>
+                                </li>
+                                <li><a itemprop="articleName" href="/أقوال_ابن_الخطاب" title="أقوال ابن الخطاب"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'RA', 6);"> أقوال ابن الخطاب</a>
+                                </li>
+                                <li><a itemprop="articleName" href="/حكم_علي_الوردي" title="حكم علي الوردي"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'RA', 6);"> حكم علي الوردي</a></li>
+                                <li><a itemprop="articleName" href="/حكم_جلال_عامر" title="حكم جلال عامر"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'RA', 6);"> حكم جلال عامر</a></li>
+                                <li><a itemprop="articleName" href="/حكم_وأقوال_عن_الدنيا" title="حكم وأقوال عن الدنيا"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'RA', 6);"> حكم وأقوال عن الدنيا</a>
+                                </li>
+                                <li><a itemprop="articleName" href="/أقوال_عائض_القرني" title="أقوال عائض القرني"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'RA', 6);"> أقوال عائض القرني</a>
+                                </li>
+                                <li><a itemprop="articleName" href="/من_أقوال_الحجاج_بن_يوسف_الثقفي"
+                                        title="من أقوال الحجاج بن يوسف الثقفي"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'RA', 6);"> من أقوال الحجاج بن يوسف
+                                        الثقفي</a></li>
+                                <li><a itemprop="articleName" href="/أشهر_أقوال_نيلسون_مانديلا"
+                                        title="أشهر أقوال نيلسون مانديلا"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'RA', 6);"> أشهر أقوال نيلسون
+                                        مانديلا</a></li>
+                                <li><a itemprop="articleName" href="/أقوال_صدام_حسين_عن_العرب"
+                                        title="أقوال صدام حسين عن العرب"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'RA', 6);"> أقوال صدام حسين عن
+                                        العرب</a></li>
+                                <li><a itemprop="articleName" href="/من_أقوال_الزير_سالم" title="من أقوال الزير سالم"
+                                        onclick="ga('send', 'event', 'AP', 'click', 'RA', 6);"> من أقوال الزير سالم</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </aside>
+                </div>
+                <div class="popup-overlay"></div>
+                <script type="text/javascript">
+                    /* Add Extra Info to Copied Text */
+                    function addLink() {
+                        if (window.getSelection().containsNode(document.getElementsByClassName('article-text')[0], true)) {
+                            var selectiontext = window.getSelection();
+                            var htmloverflowx = $('html').css('overflow-x');
+                            var sel = window.getSelection();
+                            var pagelink = "<br /><br /> إقرأ المزيد على موضوع.كوم: <a href='" + document.location.href + "'>" + document.location.href + "</a>";
+                            var div = $('<div>', { class: 'copy-paste-extra-nu', style: 'position:fixed;width:0px;height:0px;', html: sel + pagelink });
+                            $('html').css('overflow-x', 'hidden');
+                            $('body').append(div);
+                            sel.selectAllChildren(div[0]);
+
+
+                            window.setTimeout(function () {
+                                $('.copy-paste-extra-nu').remove();
+                                $('html').css('overflow-x', htmloverflowx);
+                            }, 0);
+
+                        }
+
+                    }
+
+
+                    document.oncopy = addLink;
+
+                    /* /Add Extra Info to Copied Text */
+                </script>
+                <script type="text/javascript">
+                    /* Article Page - Related Articles */
+                    function isElementCrossed(elementToBeChecked) {
+                        var TopView = $(this).scrollTop() + 80;
+                        var BotView = TopView + $(elementToBeChecked).height();
+                        var TopElement = $(elementToBeChecked).offset().top;
+                        var BotElement = TopElement + $(elementToBeChecked).height();
+                        TopElement = TopElement - 80;
+                        return ((BotView >= TopElement));
+                    }
+
+
+                    /* /Article Page - Related Articles */
+                </script>
+
+            </section>
+
+            <footer class="footer" style="
+    background-color: #27b5bb;
+">
+
+
+                <div class="row block-content">
+                    <div class="columns large-6 medium-6 small-12">
+                        <!--Social Media-->
+                        <div class="social-media" itemscope="" itemtype="https://schema.org/Organization">
+                            <link itemprop="url" href="https://www.mawdoo3.com">
+                            <a itemprop="sameAs" href="https://www.facebook.com/mawdoo3" class="facebook"
+                                target="_blank" rel="nofollow" title="موضوع على facebook" style="
+    border-radius: 50%;
+"></a> <a itemprop="sameAs" href="https://twitter.com/mawdoo3" class="twitter" target="_blank" rel="nofollow"
+                                title="موضوع على twitter" style="
+    border-radius: 50%;
+"></a> <a itemprop="sameAs" href="https://plus.google.com/+Mawdoo3" class="google" target="_blank" rel="publisher"
+                                title="موضوع على +google" style="
+    border-radius: 50%;
+"></a></div>
+                        <!--/Social Media-->
+                        <p class="column copyrights hidden-mobile" style="
+    color: lightgray;
+">جميع الحقوق محفوظة © موضوع 2019</p>
+                    </div>
+                    <div class="columns large-6 medium-6 small-12">
+                        <div class="links">
+                            <a href="/خاص:اتصال" accesskey="9">اتصل بنا</a>
+                            <a href="/اتفاقية_الاستخدام" accesskey="6">اتفاقية الاستخدام</a>
+                            <a class="hidden-tablet hidden-desktop" href="/About_Us" accesskey="m">About Us</a>
+                        </div>
+                        <div class="links">
+                            <a href="/عن_موضوع" accesskey="5">عن موضوع</a>
+                            <a href="/سياسة_الخصوصية">سياسة الخصوصية</a>
+
+                            <a class="hidden-mobile" href="/About_Us" accesskey="m">About Us</a>
+
+                        </div>
+                        <p class="column copyrights hidden-tablet hidden-desktop">جميع الحقوق محفوظة © موضوع 2019</p>
+
+
+
+                    </div>
+                </div>
+
+            </footer>
+
+
+        </div>
+    </div>
+
+    <a id="back-to-top" class="back-to-top" href="#" style="z-index: 999; display: none;"></a> <a id="move-down"
+        class="move-down" href="#views" style="display: none;"></a>
+
+
+
+
+
+
+    <script async="" src="/assets/js/mawdoo3scriptjqueryall73.js"></script>
+    <!-- Signal Tag -->
+    <script type="text/javascript">
+        (function () {
+            var tagjs = document.createElement("script");
+            var s = document.getElementsByTagName("script")[0];
+            tagjs.async = true;
+            tagjs.src = "//s.btstatic.com/tag.js#site=XZGnGlI";
+            s.parentNode.insertBefore(tagjs, s);
+        }());
+    </script>
+    <noscript>
+        <iframe src="//s.thebrighttag.com/iframe?c=XZGnGlI" width="1" height="1" frameborder="0" scrolling="no"
+            marginheight="0" marginwidth="0"></iframe>
+    </noscript>
+    <!-- End Signal Tag -->
+    <!-- Start Cookie Disclaimer -->
+    <div class="cookie-disclaimer" id="cookie-disclaimer">
+        <div class="row block-content">
+            <!-- Start Arabic Block -->
+            <div class="columns large-11 medium-11 small-10 text">
+                <p>
+                    يستخدم هذا الموقع ملفات تعريف الارتباط (الكوكيز) لتقديم أفضل خدمة متاحة؛ كالتصفح، وعرض الإعلانات،
+                    وجمع الإحصائيات المختلفة، وبتصفحك الموقع فإنك تقر بموافقتك على هذا الاستخدام. للمزيد اقرأ
+                    <a href="/سياسة_ملفات_تعريف_الارتباط">ملفات تعريف الارتباط</a>.
+                </p>
+            </div>
+            <!-- End Arabic Block -->
+            <!-- Start English Block -->
+            <div class="columns large-1 medium-1 small-2 action-btn">
+                <a class="" onclick="createCookie()" href="javascript:void(0)">X</a>
+            </div>
+            <!-- End English Block -->
+        </div>
+    </div>
+    <!-- End Cookie Disclaimer -->
+
+    <!-- Cached 20190612204028 -->
+
+    <iframe name="__bkframe" id="__bkframe" title="bk" src="about:blank"
+        style="border: 0px; width: 0px; height: 0px; display: none; position: absolute; clip: rect(0px, 0px, 0px, 0px);"></iframe><iframe
+        name="__bkframe_66420_1564551857711" id="__bkframe_66420_1564551857711" title="bk"
+        src="https://stags.bluekai.com/site/66420?ret=html&amp;phint=page_type%3Darticle&amp;phint=page_title%3D%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D8%AC%20%D8%A8%D8%A7%D8%B3%D8%AA%D9%86%D8%B4%D8%A7%D9%82%20%D8%A7%D9%84%D8%A8%D8%AE%D8%A7%D8%B1&amp;phint=page_category%3D%D8%B5%D8%AD%D8%A9&amp;phint=page_sub_category1%3D%D8%B7%D8%A8%20%D8%A8%D8%AF%D9%8A%D9%84&amp;phint=article_id%3D1613&amp;phint=keyword%3D%D8%B7%D8%A8%20%D8%A8%D8%AF%D9%8A%D9%84%2C%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D8%AC%2C%D8%A8%D8%A7%D8%B3%D8%AA%D9%86%D8%B4%D8%A7%D9%82%2C%D8%A7%D9%84%D8%A8%D8%AE%D8%A7%D8%B1&amp;phint=day_of_week%3DWed&amp;phint=time_of_day%3Dmorning&amp;phint=__bk_t%3D%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D8%AC%20%D8%A8%D8%A7%D8%B3%D8%AA%D9%86%D8%B4%D8%A7%D9%82%20%D8%A7%D9%84%D8%A8%D8%AE%D8%A7%D8%B1%20-%20%D9%85%D9%88%D8%B6%D9%88%D8%B9&amp;phint=__bk_k%3D%D8%B7%D8%A8%20%D8%A8%D8%AF%D9%8A%D9%84%2C%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D8%AC%2C%D8%A8%D8%A7%D8%B3%D8%AA%D9%86%D8%B4%D8%A7%D9%82%2C%D8%A7%D9%84%D8%A8%D8%AE%D8%A7%D8%B1&amp;phint=__bk_pr%3Dhttps%3A%2F%2Fmawdoo3.com%2F%25D8%25AA%25D8%25B5%25D9%2586%25D9%258A%25D9%2581%3A%25D8%25B7%25D8%25A8_%25D8%25A8%25D8%25AF%25D9%258A%25D9%2584&amp;phint=__bk_l%3Dhttps%3A%2F%2Fmawdoo3.com%2F%25D8%25A7%25D9%2584%25D8%25B9%25D9%2584%25D8%25A7%25D8%25AC_%25D8%25A8%25D8%25A7%25D8%25B3%25D8%25AA%25D9%2586%25D8%25B4%25D8%25A7%25D9%2582_%25D8%25A7%25D9%2584%25D8%25A8%25D8%25AE%25D8%25A7%25D8%25B1&amp;limit=4&amp;r=34301816"
+        class="__bkframe_site_66420"
+        style="border: 0px; width: 0px; height: 0px; display: none; position: absolute; clip: rect(0px, 0px, 0px, 0px);"></iframe><iframe
+        allow="autoplay" scrolling="no" frameborder="0" id="wigoiframe" src="https://sync.teads.tv/wigo-no-slot"
+        style="margin: 0px !important; padding: 0px !important; width: 0px !important; height: 0px !important; border: 0px !important; overflow: hidden !important; float: none !important; display: none !important;"></iframe><iframe
+        allow="autoplay" scrolling="no" frameborder="0" id="teadsConsensu"
+        src="https://cmp.teads.mgr.consensu.org/index.html"
+        style="margin: 0px !important; padding: 0px !important; width: 0px !important; height: 0px !important; border: 0px !important; overflow: hidden !important; float: none !important; display: none !important;"></iframe><iframe
+        allow="autoplay" scrolling="no" frameborder="0" id="teadsusersync"
+        src="https://sync.teads.tv/iframe?pid=60405&amp;userId=9fe137b2-7324-4f24-9117-1b7fbb12af06&amp;gdprIab={&quot;status&quot;:22,&quot;consent&quot;:&quot;&quot;,&quot;reason&quot;:220}&amp;1564551858538"
+        style="margin: 0px !important; padding: 0px !important; width: 0px !important; height: 0px !important; border: 0px !important; overflow: hidden !important; float: none !important; display: none;"></iframe><iframe
+        data-mediavoice-frame-type="wrapper-optout-iframe" style="display: none;"></iframe><iframe allow="autoplay"
+        scrolling="no" frameborder="0" id="wigoiframe" src="https://sync.teads.tv/wigo-no-slot"
+        style="margin: 0px !important; padding: 0px !important; width: 0px !important; height: 0px !important; border: 0px !important; overflow: hidden !important; float: none !important; display: none !important;"></iframe><iframe
+        allow="autoplay" scrolling="no" frameborder="0" id="teadsConsensu"
+        src="https://cmp.teads.mgr.consensu.org/index.html"
+        style="margin: 0px !important; padding: 0px !important; width: 0px !important; height: 0px !important; border: 0px !important; overflow: hidden !important; float: none !important; display: none !important;"></iframe>
+</body>
+
+</html>
