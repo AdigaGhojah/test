@@ -52,13 +52,14 @@
     })(window, document, 'script', 'dataLayer', 'GTM-525JGMH');</script>
   <!-- End Google Tag Manager -->
   <script>
-  document.getElementById('teeest').addEventListener('click',()=>{
+  function teeest(){
+   //alert("123");
   
-  alert("123");
-  // var metricValue = '123';
-  // ga('set', 'metric1', metricValue);
+   var metricValue = '123';
+   alert(metricValue);
+   ga('set', 'metric1', metricValue);
 
-});
+};
   </script>
   <style>
     .references {
@@ -636,7 +637,7 @@ height: auto;min-height: auto; background-color: black;">
         <div class="options">
           <a href="https://ujeeb.com/landing-page/o9yEej15NZX7db83W02g/" class="add-question-btn mt-3" onclick="gtag('event', 'click', { 'send_to': 'UA-157575135-1', 'event_category': 'festival11', 'event_action': 'click', 'event_label': 'country'});"
             target="blank">اطرح سؤالك</a>
-            <button id="teeest">333</button>
+            <button onclick="teeest()">333</button>
           <ul style="display: none;">
 
             <!-- Start First Option -->
