@@ -929,7 +929,8 @@ height: auto;min-height: auto; background-color: black;">
   </script>
   <script>
     function articlevideo(){
-      var x = document.getElementById("video-src").src;
+      var x = document.getElementById("video-src").src.replace('http://softpmp.com/','');;
+      console.log(x);
       gtag('event', 'click', { 'send_to': 'UA-157575135-1', 'event_category': 'festival11', 'event_action': 'click', 'event_label': x});
     }
   </script>
