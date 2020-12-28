@@ -5477,7 +5477,6 @@ footer .copy-right {
   justify-content: center;
 }
 .scrollButton::before {
-  height: 16px;
   display: inline-block;
 }
 .scrollButton:hover {
